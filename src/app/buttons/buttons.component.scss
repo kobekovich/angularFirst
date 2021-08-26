@@ -1,0 +1,36 @@
+.pills {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+
+    button {
+        width: 250px;
+        height: 75px;
+        font-size: 30px;
+        font-weight: bold;
+        border: 1px solid black;
+        border-radius: 8px;
+        margin: 0 50px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .red {
+        background: red;
+
+        &:hover {
+            background: lighten($color: red, $amount: 15%);
+        }
+    }
+
+    .blue {
+        background: rgb(0, 81, 255);
+
+        &:hover {
+            background: lighten($color: rgb(0, 81, 255), $amount: 15%);
+        }
+    }
+}
