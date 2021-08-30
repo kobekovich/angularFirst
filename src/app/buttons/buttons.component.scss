@@ -22,7 +22,7 @@
         background: red;
 
         &:hover {
-            background: lighten($color: red, $amount: 15%);
+            background: lighten($color: red, $amount: 35%);
         }
     }
 
@@ -30,7 +30,7 @@
         background: rgb(0, 81, 255);
 
         &:hover {
-            background: lighten($color: rgb(0, 81, 255), $amount: 15%);
+            background: lighten($color: rgb(0, 81, 255), $amount: 35%);
         }
     }
 }

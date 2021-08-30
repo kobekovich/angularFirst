@@ -1,0 +1,22 @@
+section {
+    background-color: red;
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+
+    button {
+        width: 250px;
+        height: 75px;
+        font-size: 30px;
+        font-weight: bold;
+        border: 1px solid black;
+        border-radius: 8px;
+        margin: 0 50px;
+
+        &:hover {
+            cursor: pointer;
+            background: lighten($color: red, $amount: 35%);
+        }
+    }
+}

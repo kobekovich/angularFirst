@@ -16,7 +16,7 @@ const routes: Routes = [
   },
   { 
     path: 'red-page', 
-    component: RedPageComponent 
+    component: RedPageComponent,
   },
   { 
     path: 'blue-page', 
